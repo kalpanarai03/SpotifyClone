@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spotify - You favourite music is here</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li class="brand"><img src="logo1.png" alt="Spotify"> Spotify </li>
-                <li>
-                    Home
-                </li>
-                <li>
-                    About
-                </li>
-            </ul>
-        </nav>
 
-        <div class="container">
-            
-            <div class="songList"></div>
-            <h1>Best of NCS - No Copyright Sounds</h1>
-            <div class="songItemContainer"></div>
-            <div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - You favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-                <div class="songItem"></div>
-                    <img src="cover.jpeg" alt="1">
-                    <span>Shape Of You</span>
-                    <span class="songlistplay"><span class="timestamp">05:34 <i class="far fa-play-circle"> </i></span></span>
-                </div>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1.png" alt="Spotify"> Spotify </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
 
-            </div>
-            <div class="songBanner"></div>
-        </div>
+    <div class="container">
 
-        <div class="bottom">
-            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
-            <div class="icons">
-                <!-- fontawesome icons-->
-                <i class="fas fa-2x fa-step-backward"></i>
-                <i class="far fa-3x fa-play-circle" , id="masterPlay"></i>
-                <i class="fas fa-2x fa-step-forward"></i>
-            </div>
-            <div class="songInfo">
-                <img src="playing.gif" width="43px" alt="" id="gif" > Shape Of You - Ed Shireen
+        <div class="songList"></div>
+        <h1>Best of NCS - No Copyright Sounds</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="cover.jpeg" alt="1">
+                <span>Shape Of You</span>
+                <span class="songlistplay"><span class="timestamp">05:34 <i class="far fa-play-circle">
+                        </i></span></span>
             </div>
         </div>
-        <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
-    </body>
+
+    </div>
+    <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons-->
+            <i class="fas fa-2x fa-step-backward"></i>
+            <i class="far fa-3x fa-play-circle" , id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="43px" alt="" id="gif"> Shape Of You - Ed Shireen
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
 </html>

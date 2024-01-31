@@ -44,7 +44,7 @@ nav ul li{
     background-color: black;
     color: white;
     font-family: 'Varela Round' , sans-serif;
-    display: flex;
+    display: block;
     width: 70%;
     margin: 23px auto;
     border-radius: 12px;
@@ -80,7 +80,8 @@ nav ul li{
 }
 
 .songItemContainer{
-    margin-top: 74px;
+    margin-top: 10px;
+    display: flex;
 }
 
 .songItem{
@@ -101,7 +102,6 @@ nav ul li{
     width: 43px;
     margin: 0 23px;
     border-radius: 34px;
-
 }
 
 .timestamp{
